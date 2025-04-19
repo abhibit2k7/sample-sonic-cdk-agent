@@ -38,7 +38,7 @@ def get_dynamodb_table_name():
     Loads and returns the DynamoDB table name from the .env file.
     """
 
-    # Get the DynamoDB table name
+    # Get the DynamoDB table name.
     table_name = os.getenv("DYNAMODB_TABLE_NAME")
 
     if not table_name:
